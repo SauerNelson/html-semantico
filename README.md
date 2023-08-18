@@ -41,3 +41,17 @@ Lista de Tarefas:
 > Não Faltem!
 > (João Marcos) 
   
+Este é um método `console.log()` do javascript.
+
+Esta é uma função do JavaScript
+```javascript
+function selecionaElemento() {
+  const body = document.querySelector('body');
+}
+```
+
+Frutas | Doces | Salgados
+:------ | :-----: | --------:
+Banana | chocolate | coxinha
+Maçã | bala de goma | esfiha
+uva | bombom | tapioca
