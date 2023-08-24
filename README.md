@@ -56,7 +56,7 @@ Banana | chocolate | coxinha
 Maçã | bala de goma | esfiha
 uva | bombom | tapioca
 
- 
+ as
 
  
  
