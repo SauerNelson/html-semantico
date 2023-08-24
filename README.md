@@ -58,10 +58,5 @@ uva | bombom | tapioca
 
  
 
-<<<<<<< HEAD
  
  
-=======
- asdasd
- 
->>>>>>> 9c19393 (Update2,0)
