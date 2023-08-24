@@ -56,8 +56,12 @@ Banana | chocolate | coxinha
 Maçã | bala de goma | esfiha
 uva | bombom | tapioca
 
-  
- sdasd
+ 
 
+<<<<<<< HEAD
  
  
+=======
+ asdasd
+ 
+>>>>>>> 9c19393 (Update2,0)
