@@ -56,7 +56,7 @@ Banana | chocolate | coxinha
 Maçã | bala de goma | esfiha
 uva | bombom | tapioca
 
- as
-
+ 
+ Comando para corrigir erro GPG :  git config --unset commit.gpgSign
  
  
