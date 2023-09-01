@@ -1,0 +1,13 @@
+body {
+    color: black;
+}
+
+h1 {
+    color: firebrick; 
+}
+h2 {
+    color: aquamarine;
+    line-height: 3;
+    font-weight: bold;
+}
+
