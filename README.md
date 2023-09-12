@@ -60,3 +60,6 @@ uva | bombom | tapioca
  Comando para corrigir erro GPG :  git config --unset commit.gpgSign
  
  
+
+ atributo "margin" do css começa-se pelo top, "right", "bottom", "letf". sem precisar definir um por um. Acresentando "px" na frente do valor do atributo. Se os valores do "top" e "bottom" forem iguais, só escrever uma vez, igualmente por "right" e "left".
+
