@@ -1,6 +1,7 @@
 body {
     margin: 20px 50px;   
     background-color: #FFFFDD;
+
 }
 p {
     line-height: 1.2;
@@ -13,20 +14,25 @@ ul {
 details {
     line-height: 1.2;
 }
-
+.paragrafo-de-artigo + .paragrafo-de-artigo {
+    padding-top: 0;
+}
+ 
 .paragrafo-de-artigo {
     background-color: #053B50;
     color: aquamarine;
     padding: 20px;
     border-radius: 20px;
-}
+    margin: 0;
+    }
+
 .titulo-de-artigo {
     color:#053B50;
     line-height: 3;
     font-weight: bold;
     font-size: 24pt;
     font-style: italic;
-    margin: 10px 0;
+    margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
     
@@ -47,11 +53,6 @@ details {
     font-style: italic;    
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-footer {
-    line-height: 1.4;
-    }
 
 
 
