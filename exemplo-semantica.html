@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML | Exemplo de Semântica</title>
+</head>
+<body> 
+    <!-- No body vai TODO o conteudo da pagina  -->
+    <Header>
+        <!-- Aqui vai o cabeçalho da pagina  -->
+        <nav>
+            <!-- Nesse caso, o nav indica o menu de navegação principal  -->
+        </nav>
+    </Header>
+    
+    <main>
+        <!-- Já no main vai o conteudo principal da pagina -->
+
+        <article>
+            <!-- Artigo ou conteúdo autocontido, não necessariamente conectado ao assunto da pagina.  -->
+            <header>
+                <!-- cabeçalho do artigo           Um nav aqui definiria um menu de navegação dentro do cabeçalho de um artigo  -->
+            </header>
+            <footer>
+                <!-- rodapé do artigo  -->
+            </footer>
+        </article>
+
+        <section>
+            <!-- Seção relacionada com o conteudo do site  -->
+        </section>
+
+        <picture>
+            <!-- tag usada para inserir imagem, podendo alterar os atributos da mesma  -->
+        </picture>
+
+        <pre>
+            <!-- usado para inserir textos pré-formatados  -->
+        </pre>
+
+    <q>
+        <!-- usado para fazer citações  -->
+    </q>
+
+    <details> 
+        <!-- details serve para criar um sumario  -->
+        <summary> 
+            <!-- o nome do sumario inserido aqui  -->
+            <p>
+                <!-- conteudo do details  -->
+            </p>
+        </summary>
+    </details>
+
+    <style>
+        /* style css inline para aplicar estilos  */
+        table, td, tr, thead {
+            /* aplicando estilo a mais de uma tag  */
+            border: 1px solid #000;
+        }
+    </style>
+
+    <table>
+        <!-- table serve para criar tabelas  -->
+        <thead>
+            <!-- Cabeça da tabela  -->
+        <tr> 
+            <!-- para criar linhas de tabela   tr = table row-->
+            <td>
+                Fruta
+           <!-- para criar colunas da tabela   td= table data  -->
+           <!-- se trocar os "td" por "th" deixa em negrito para definir a head da tabela  -->
+            </td>
+            <td>Local</td>
+            <td>Preço</td>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- corpo da tabela  -->
+        <tr>
+            <td>Banana</td>
+            <td>Feira</td>
+            <td>R$ 7.00</td>
+        </tr>
+        <tr>
+            <td>maça</td>
+            <td>hortifruti</td>
+            <td>R$ 10.00</td>
+        </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">Total</td>
+        <!-- colspan serve para mesclar duas ou mais celulas  -->
+        <td>R$ 17.00</td>
+    </tr>
+    </tfoot>
+    </table>
+
+
+        <nav>
+            <!-- Define um menu de navegação, pode ser inserido no main, header, footer, body, section, aside -->
+        </nav>
+
+
+
+    </main>
+
+    <aside>
+        <!-- Conteudo lateral | secundario, mas relacionado ao conteudo principal  -->
+    </aside>
+
+    <footer>
+        <!-- No footer vai o conteudo do rodapé -->
+        <nav>
+             <!-- Menu de navegação do rodapé  -->
+        </nav>
+    </footer> 
+    
+    
+</body>
+</html>
