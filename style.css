@@ -3,7 +3,7 @@ body {
     background-color: #FFFFDD;
 
 }
-p {
+ p {
     line-height: 1.2;
     text-align: justify;
     margin-bottom: 20px;
@@ -14,17 +14,19 @@ ul {
 details {
     line-height: 1.2;
 }
+
+
+
 .paragrafo-de-artigo + .paragrafo-de-artigo {
-    padding-top: 0;
+    padding-top: 0; 
 }
  
 .paragrafo-de-artigo {
     background-color: #053B50;
     color: aquamarine;
     padding: 20px;
-    border-radius: 20px;
     margin: 0;
-    }
+   }
 
 .titulo-de-artigo {
     color:#053B50;
@@ -55,7 +57,10 @@ details {
 }
 
 
+article p:nth-of-type(1) {
+border-radius: 15px 15px 0 0;
+}
 
-
-
-
+article p:last-child {
+    border-radius: 0 0 15px 15px;
+    }
