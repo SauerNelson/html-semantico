@@ -64,3 +64,8 @@ border-radius: 15px 15px 0 0;
 article p:last-child {
     border-radius: 0 0 15px 15px;
     }
+
+.paragrafo-de-artigo:only-of-type {
+        border-radius:  15px;
+    }       
+    
